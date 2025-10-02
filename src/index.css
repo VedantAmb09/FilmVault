@@ -22,6 +22,8 @@ body {
     font-size: large;
     font-weight: bold;
     color: rgb(0, 157, 255);
+    position: fixed;
+    z-index: 50;
 }
 
 .navbar img {
@@ -38,6 +40,7 @@ body {
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: relative;
+    top: 3.5rem;
 }
 
 .banner-image {
@@ -62,14 +65,14 @@ body {
 .link {
     text-decoration: none;
     color: inherit;
-     font-size: larger;
+    font-size: larger;
 }
 
 
 .heading {
     font-size: 1.3rem;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 70px;  /*updated*/
     font-family: sans-serif;
     font-weight: bolder;
     margin-bottom: 10px;
@@ -452,3 +455,4 @@ td img {
         font-size: 24px;
     }
 }
+
