@@ -248,3 +248,206 @@ td img {
 }
 
 
+
+
+
+
+
+/* TAKEN FROM CHATGPTTTTTTT */
+
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding-left: 20px;
+        gap: 30px;
+        font-size: medium;
+    }
+
+    .movielist {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        padding: 0 10px;
+    }
+
+    .mainposter {
+        width: calc(33.33vw - 30px);
+        margin: 10px;
+    }
+
+    .moviename {
+        width: 100%;
+        font-size: medium;
+    }
+
+    .genrefilter {
+        flex-wrap: wrap;
+        padding: 0 10px;
+    }
+
+    .genretype {
+        font-size: 0.9rem;
+    }
+
+    .movietable {
+        margin: 10px;
+        font-size: 0.9rem;
+    }
+
+    td img {
+        height: 5rem;
+        width: 9rem;
+    }
+}
+
+/* Mobile view (480px and below) */
+@media screen and (max-width: 480px) {
+    .navbar {
+        padding-left: 15px;
+        gap: 15px;
+        font-size: small;
+        height: 7vh;
+    }
+
+    .navbar img {
+        height: 5vh;
+    }
+
+    .banner {
+        height: 50vh;
+        font-size: medium;
+    }
+
+    .bannername {
+        font-size: 0.9rem;
+    }
+
+    .heading {
+        font-size: 1.1rem;
+        margin-top: 20px;
+    }
+
+    .movielist {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 0 10px;
+    }
+
+    .mainposter {
+        width: calc(50vw - 25px);
+        height: 35vh;
+        margin: 8px;
+    }
+
+    .moviename {
+        font-size: small;
+        padding: 8px 4px;
+    }
+
+    .mainposter:hover {
+        transform: scale(1.05);
+    }
+
+    .pagination {
+        height: 5vh;
+        font-size: 0.9rem;
+    }
+
+    .pageno {
+        margin: 0px 5px;
+    }
+
+    /* Watchlist mobile styles */
+    .searchbar {
+        margin-top: 30px;
+    }
+
+    #searchmovie {
+        width: 80vw;
+        max-width: 300px;
+    }
+
+    .genrefilter {
+        gap: 8px;
+        padding: 0 10px;
+    }
+
+    .genretype {
+        font-size: 0.8rem;
+        padding: 8px;
+    }
+
+    .movietable {
+        margin: 10px 5px;
+        font-size: 0.75rem;
+        overflow-x: auto;
+    }
+
+    table {
+        min-width: 500px;
+    }
+
+    thead th {
+        padding: 8px 4px;
+        font-size: 0.8rem;
+    }
+
+    .bodyrow td {
+        padding: 8px 4px;
+    }
+
+    td img {
+        height: 4rem;
+        width: 7rem;
+    }
+
+    .tableimg {
+        gap: 8px;
+    }
+
+    .addtowatchlist {
+        font-size: 28px;
+        margin-right: 10px;
+    }
+
+    .removebtn {
+        font-size: 0.9rem;
+    }
+}
+
+/* Extra small mobile devices (360px and below) */
+@media screen and (max-width: 360px) {
+    .navbar {
+        padding-left: 10px;
+        gap: 10px;
+        font-size: x-small;
+    }
+
+    .movielist {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+        padding: 0 5px;
+    }
+
+    .mainposter {
+        width: calc(50vw - 20px);
+        height: 30vh;
+        margin: 5px;
+    }
+
+    .moviename {
+        font-size: x-small;
+    }
+
+    .heading {
+        font-size: 1rem;
+    }
+
+    td img {
+        height: 3.5rem;
+        width: 6rem;
+    }
+
+    .addtowatchlist {
+        font-size: 24px;
+    }
+}
