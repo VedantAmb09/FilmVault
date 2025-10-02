@@ -52,7 +52,7 @@ export const Movies = ({handleaddtowatchlist, handleremovefromwatchlist, watchli
                 <div className="movielist">
 
                     {Movies.map((movie) => {
-                        return <Moviecard watchlist={watchlist} movie={movie} handleaddtowatchlist={handleaddtowatchlist} handleremovefromwatchlist={handleremovefromwatchlist} key={movie.id} poster_path={movie.poster_path} movie_title={movie.original_title} />
+                        return <Moviecard watchlist={watchlist} movie={movie} handleaddtowatchlist={handleaddtowatchlist} handleremovefromwatchlist={handleremovefromwatchlist} key={movie.id} poster_path={movie.poster_path} movie_title={movie.original_title}  original_language={movie.original_language} overview={movie.overview} />
                     })}
 
                 </div>
